@@ -19,6 +19,7 @@
 .container {
   height: 10px;
   width: 100%;
+  
 }
 
 .topnav {
@@ -27,7 +28,7 @@
   position: relative;
   display: flex;
   justify-content: flex-end;
-  height: 50px;
+  height: 40px;
 }
 
 .topnav a {
@@ -35,7 +36,7 @@
   display: flex;
   color: black;
   text-align: center;
-  padding: 14px 20px;
+  padding: 15px 10px;
   text-decoration: none;
   font-size: 17px;
   border-radius: 5px;
@@ -48,6 +49,7 @@
 .dropdown {
   float: left;
   overflow: hidden;
+  
 }
 
 .dropdown .dropbtn {
@@ -55,7 +57,7 @@
   border: none;
   outline: none;
   color: black;
-  padding: 15px 10px;
+  padding: 15px 0px;
   background-color: white;
   font-family: inherit;
   margin: 0;
@@ -95,9 +97,11 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
+.h5{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child),
+  .topnav a:not(:first-child) {display: none;}
   .dropdown .dropbtn {
     display: none;
   }
@@ -121,7 +125,7 @@
     display: block;
     text-align: left;
   }
-  .topnav.responsive .dropdown {
+  /* .topnav.responsive .dropdown {
     float: right;
   }
   .topnav.responsive .dropdown-content {
@@ -131,7 +135,7 @@
     display: block;
     width: 100%;
     text-align: left;
-  }
+  } */
 }
 .imageslide {
   width: 100%;
@@ -172,63 +176,13 @@
 .card {
   display: block;
   position: relative;
-  border-radius: 20%;
+  border-radius: 15%;
   box-sizing: content-box;
 }
 .row {
   display: flex;
   flex-wrap: wrap;
 }
-
-/* .material-icons {
-  margin-right: 10px;
-}
-
-.icon-bar {
-  position: fixed;
-  top: 80%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.icon-bar a {
-  display: block;
-  text-align: center;
-  padding: 15px;
-  transition: all 0.3s ease;
-  color: white;
-  font-size: 15px;
-}
-
-.icon-bar a:hover {
-  background-color: #000;
-}
-
-.facebook {
-  background: #3b5998;
-  color: white;
-}
-
-.twitter {
-  background: #55acee;
-  color: white;
-}
-
-.google {
-  background: #dd4b39;
-  color: white;
-}
-
-.linkedin {
-  background: #007bb5;
-  color: white;
-}
-
-.youtube {
-  background: #bb0000;
-  color: white;
-} */
 
 .page-footer {
   background-color: #33383c;

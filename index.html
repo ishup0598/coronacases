@@ -26,16 +26,8 @@
     </div> -->
     <div class="topnav" id="myTopnav">
       <a href="index.html" class="active">Home</a>
-      <div class="dropdown">
-        <button class="dropbtn dropdown-toggle">Status 
-        </button>
-        <div class="dropdown-content">
-          <a href="#statewise">State Wise</a>
-          <a href="#citywise">City Wise</a>
-        </div>
-      </div>
       <a href="https://www.cowin.gov.in/">Co-WIN</a> 
-      <a href="#about">About Us</a>
+      <a href="#aboutus">About Us</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
     </nav>
@@ -75,7 +67,7 @@
             <div class="card bg-warning">
               <div class="card body text-center md-">
                 <h5>Total Confirm Cases</h5>
-                <h5 class="ng-binding">{{all_data.cases}}</h5>
+                <h6 class="ng-binding">{{all_data.cases}}</h6>
               </div>
             </div>
           </div>
@@ -83,7 +75,7 @@
             <div class=" card  bg-success">
               <div class="card body text-center md-3">
               <h5>Total Recover Cases</h5>
-              <h5 class="ng-binding">{{all_data.recovered}}</h5>
+              <h6 class="ng-binding">{{all_data.recovered}}</h6>
             </div>
           </div>
         </div>
@@ -91,7 +83,7 @@
           <div class="card bg-danger">
             <div class="card body text-center md-3">
               <h5>Total Death Cases</h5>
-              <h5 class="ng-binding">{{all_data.deaths}}</h5>
+              <h6 class="ng-binding">{{all_data.deaths}}</h6>
             </div>
           </div>
         </div>
@@ -111,7 +103,7 @@
           <div class="div card ">
             <div class="card body text-center md-3 bg-warning">
               <h5>Confirmed Cases</h5>
-              <h5 class="ng-binding">{{c_data.cases}}</h5>
+              <h6 class="ng-binding">{{c_data.cases}}</h6>
           </div>
         </div>
       </div>
@@ -119,7 +111,7 @@
         <div class="div card  ">
           <div class="card body text-center md-3 bg-success">
             <h5>Recovered Cases</h5>
-            <h5 class="ng-binding">{{c_data.recovered}}</h5>
+            <h6 class="ng-binding">{{c_data.recovered}}</h6>
           </div>
         </div>
       </div>
@@ -127,7 +119,7 @@
         <div class="div card ">
           <div class="card body text-center md-3 bg-danger">
             <h5>Deaths Cases</h5>
-            <h5 class="ng-binding">{{c_data.deaths}}</h5>
+            <h6 class="ng-binding">{{c_data.deaths}}</h6>
           </div>
         </div>
       </div>
@@ -136,7 +128,6 @@
 </div>
 </div>
 </div>
-
 <!-- Load font awesome icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
