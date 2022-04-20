@@ -1,0 +1,37 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: block;
+  height: 7vh;
+}
+
+.container {
+  height: 10px;
+  width: 100%;
+  
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child),
+  .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+.card {
+  display: block;
+  position: relative;
+  border-radius: 0;
+  box-sizing: content-box;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
